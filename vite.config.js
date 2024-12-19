@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Poprawne ścieżki dla Vercel
+  base: './', // Ważne dla poprawnych ścieżek na Vercel
 });
